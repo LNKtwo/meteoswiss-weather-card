@@ -209,8 +209,10 @@ npm run type-check   # TypeScript check
 
 **Tech Stack:** Lit 3 · TypeScript · Vite · lit-translate · Meteocons
 
----
-
-## 📝 License
+---## 📝 License
 
 MIT — see [LICENSE](LICENSE)
+
+---
+
+*Made with ❤️ in Lucerne for the Home Assistant community.*
