@@ -1,0 +1,8 @@
+{
+  "name": "MeteoSwiss Weather Card",
+  "filename": "meteoswiss-weather-card.js",
+  "render_readme": true,
+  "content_in_root": true,
+  "country": ["CH"],
+  "homeassistant": "2024.7.0"
+}
