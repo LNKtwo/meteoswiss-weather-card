@@ -1,0 +1,52 @@
+{
+  "name": "meteoswiss-weather-card",
+  "version": "2.4.7",
+  "description": "Swiss weather dashboard card for Home Assistant — optimized for MeteoSwiss data via LNKtwo/ha-meteoswiss",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && cp dist/meteoswiss-weather-card.js* .",
+    "dev": "vite build --watch",
+    "lint": "eslint src/",
+    "type-check": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "custom-card-helpers": "^2.0.0",
+    "lit": "^3.3.3",
+    "lit-translate": "^2.0.1",
+    "marked": "^14.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-n": "^18.2.2",
+    "eslint-plugin-promise": "^7.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.2.0",
+    "prettier": "^3.9.6",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.3"
+  },
+  "license": "MIT",
+  "author": "Onur Iriz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LNKtwo/ha-meteoswiss-card"
+  },
+  "keywords": [
+    "home-assistant",
+    "hacs",
+    "meteoswiss",
+    "weather",
+    "switzerland",
+    "lovelace",
+    "custom-card"
+  ]
+}
